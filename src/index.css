@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#carrito{
+  height: 30px;
+  width: 30px;
+}
+#open{
+  height: 50px;
+  width: 50px;
+  background-color: white !important;
+  border: 0em;
+}
+.submenu{
+  position: relative;
+}
+#modal_container{
+  display: none;
+}
+.submenu:hover #modal_container{
+    display: block;
+    position: absolute;
+    right:0;
+
+    top:100%;
+    z-index: 1;
+    background-color: gray;
+    padding: 20px;
+    min-height: 400px;
+    min-width: 300px;
+}
+
+@font-face {
+  font-family: txt;
+  src: url("./components/fonts/Montserrat-Regular.ttf");
+}
+
+h1 {
+  font-family: txt;
+}
+
+h2 {
+  font-family: txt;
+}
+
+h3 {
+  font-family: txt;
+}
+
+h5 {
+  font-family: txt;
+}
+
+p {
+  font-family: txt;
+}
+
+li {
+  font-family: txt;
+}
+
+label {
+  font-family: txt;
+}
+
+input {
+  font-family: txt;
+}
+#cont_list {
+  list-style: none;
+  text-decoration: none;
+  box-shadow: none;
+  color: black;
+}
+
+#cont_red {
+  list-style: none;
+  text-decoration: none;
+  box-shadow: none;
+  color: black;
+}
