@@ -1,7 +1,7 @@
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-Visit web site: https://nahumoledo.github.io/zionReact/
+Visit web site: https://zionclothing.vercel.app
 
 ## Available Scripts
 
