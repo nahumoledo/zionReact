@@ -12,7 +12,7 @@ function ItemDetail({ data }) {
     }
     return(
         <div className="detail-container">
-            <img width={'500px'} src={`./proyecto-app/src/Img/${data.imageId}`} alt={data.title} />
+            <img width={'500px'} src={`../src/Img/${data.imageId}`} alt={data.title} />
             <h2>{data.title}</h2>
             <h3>{data.price}</h3>
             <ItemCount cantProductos={cantProductos} setCantProductos={setCantProductos}/>
