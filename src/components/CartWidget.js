@@ -1,5 +1,5 @@
 import React from "react"
-import shopping_cart from '../Img/shopping_cart.png'
+import shopping_cart from '../../public/Img/shopping_cart.png'
 import { Link } from "react-router-dom"
 import { useContext } from "react"
 import Cart from "./cart/cart"
